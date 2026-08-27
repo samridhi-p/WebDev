@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Heatwave Advisory Subscription</title>
+</head>
+
+<body>
+    <h2>Subscribe to Heatwave Alerts</h2>
+
+<form>
+
+    <fieldset>
+
+        <legend>Alert Registration</legend>
+
+        <label>Name:</label><br>
+        <input type="text" name="name"><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email"><br>
+
+        <label>Phone:</label><br>
+        <input type="tel" name="phone"><br>
+
+        <label>Location:</label><br>
+        <input type="text" name="location"><br>
+
+        <input type="submit" value="Subscribe">
+
+    </fieldset>
+
+</form>
+    <header style="background-color:#8B0000; color:white; padding:20px;">
+        <h1>Heatwave Advisory Subscription</h1>
+    </header>
+
+    <nav style="padding:15px; background-color:#333;">
+        <a href="index.html" style="color:white;">Home</a> |
+        <a href="alert-details.html" style="color:white;">Alerts</a> |
+        <a href="forecast.html" style="color:white;">Forecast</a> |
+        <a href="media.html" style="color:white;">Media</a>
+    </nav>
+
+    <main style="padding:30px;">
+
+        <h2>Subscribe for Heatwave Alerts</h2>
+
+        <form action="#" method="post">
+
+            <fieldset>
+                <legend>Citizen Information</legend>
+
+                <p>
+                    <label for="name">Citizen Name:</label><br>
+                    <input type="text"
+                           id="name"
+                           name="name"
+                           placeholder="Enter your name"
+                           required>
+                </p>
+
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email"
+                           id="email"
+                           name="email"
+                           placeholder="example@email.com"
+                           required>
+                </p>
+
+                <p>
+                    <label for="mobile">Mobile Number:</label><br>
+                    <input type="tel"
+                           id="mobile"
+                           name="mobile"
+                           placeholder="+91 9876543210"
+                           required>
+                </p>
+
+                <p>
+                    <label for="region">Select Region:</label><br>
+
+                    <select id="region" name="region" required>
+                        <option value="">-- Select Region --</option>
+                        <option value="north">North Zone</option>
+                        <option value="central">Central Zone</option>
+                        <option value="south">South Zone</option>
+                        <option value="east">East Zone</option>
+                        <option value="west">West Zone</option>
+                    </select>
+                </p>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferred Alert Language</legend>
+
+                <input type="radio"
+                       id="english"
+                       name="language"
+                       value="english"
+                       checked>
+
+                <label for="english">English</label>
+
+                <br>
+
+                <input type="radio"
+                       id="hindi"
+                       name="language"
+                       value="hindi">
+
+                <label for="hindi">Hindi</label>
+
+                <br>
+
+                <input type="radio"
+                       id="marathi"
+                       name="language"
+                       value="marathi">
+
+                <label for="marathi">Marathi</label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Alert Types</legend>
+
+                <input type="checkbox"
+                       id="severe"
+                       name="alerts"
+                       value="severe">
+
+                <label for="severe">Severe Heatwave Alerts</label>
+
+                <br>
+
+                <input type="checkbox"
+                       id="forecast"
+                       name="alerts"
+                       value="forecast">
+
+                <label for="forecast">Daily Forecasts</label>
+
+                <br>
+
+                <input type="checkbox"
+                       id="health"
+                       name="alerts"
+                       value="health">
+
+                <label for="health">Health Advisories</label>
+
+            </fieldset>
+
+            <br>
+
+            <button type="submit">Subscribe</button>
+
+            <button type="reset">Reset</button>
+
+        </form>
+
+    </main>
+
+</body>
+</html>

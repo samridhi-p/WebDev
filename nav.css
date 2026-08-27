@@ -1,0 +1,16 @@
+.image-gallery {
+    text-align: center;
+}
+
+.image-gallery img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border: 3px solid #8B0000;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.1);
+}

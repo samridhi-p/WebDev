@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regional Heatwave Hotspot Map</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header style="background-color:#8B0000; color:white; padding:20px;">
+        <h1>Regional Heatwave Hotspot Map</h1>
+    </header>
+
+    <nav style="padding:15px; background-color:#333;">
+        <a href="index.html" style="color:white;">Home</a> |
+        <a href="alert-details-nz.html" style="color:white;">North Alerts</a> |
+        <a href="alert-details-cz.html" style="color:white;">Central Alerts</a> |
+        <a href="forecast.html" style="color:white;">Forecast</a> |
+        <a href="subscribe.html" style="color:white;">Subscribe</a>
+    </nav>
+
+    <main style="padding:30px;">
+
+        <aside class="zone-sidebar">
+
+    <h2>Heatwave Zones</h2>
+
+    <ul>
+        <li><a href="alert-details-nz.html">North Zone</a></li>
+        <li><a href="alert-details-cz.html">Central Zone</a></li>
+        <li><a href="forecast.html">Forecast Zone</a></li>
+        <li><a href="hotspot-map.html">Hotspot Regions</a></li>
+    </ul>
+
+</aside>
+<div class="page-layout">
+
+    <aside class="sidebar">
+
+        <h2>Heatwave Zones</h2>
+
+        <ul>
+            <li>North Zone</li>
+            <li>Central Zone</li>
+            <li>South Zone</li>
+        </ul>
+
+    </aside>
+
+    <section class="content">
+
+        <h2>Current Heatwave Situation</h2>
+
+        <p>
+            Severe heatwave conditions are being monitored
+            across vulnerable regions.
+        </p>
+
+    </section>
+
+</div>
+<div class="alert-card">
+    <h2>North Zone</h2>
+    <p><strong>Alert Level:</strong> Severe Heatwave</p>
+    <p><strong>Temperature:</strong> 47°C</p>
+    <p><strong>Status:</strong> Active</p>
+</div>
+
+<div class="alert-card">
+    <h2>Central Zone</h2>
+    <p><strong>Alert Level:</strong> High</p>
+    <p><strong>Temperature:</strong> 45°C</p>
+    <p><strong>Status:</strong> Active</p>
+</div>
+<h2>Interactive Regional Map</h2>
+
+        <p>
+            <strong>Note:</strong> In a production website, replace the
+            illustrative map above with an official regional map image.
+        </p>
+
+        <h3>Clickable Regions</h3>
+
+        <p>
+            <a href="alert-details-nz.html">North Zone Details</a>
+        </p>
+
+        <p>
+            <a href="alert-details-cz.html">Central Zone Details</a>
+        </p>
+
+        <h3>Image Map Example</h3>
+
+        <img src="regional-map.png"
+             alt="Regional Heatwave Hotspot Map"
+             width="900"
+             height="500"
+             usemap="#heatwave-map">
+
+        <map name="heatwave-map">
+
+            <area shape="poly"
+                  coords="200,80,450,50,600,130,500,240,300,220"
+                  href="alert-details-nz.html"
+                  alt="North Zone"
+                  title="North Zone">
+
+            <area shape="poly"
+                  coords="300,220,500,240,650,390,400,430,200,320"
+                  href="alert-details-cz.html"
+                  alt="Central Zone"
+                  title="Central Zone">
+
+        </map>
+        <footer>
+    <p>&copy; 2026 Heatwave Intelligence System</p>
+</footer>
+    </main>
+
+</body>
+</html>

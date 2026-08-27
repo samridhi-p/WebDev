@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+       <link rel="stylesheet" href="nav.css">
+    <title>Media & Heatwave Awareness</title>
+</head>
+
+<body>
+    <h2>Heatwave Media Gallery</h2>
+
+<div class="image-gallery">
+
+    <img src="heatwave1.jpg" alt="Heatwave conditions">
+    <img src="heatwave2.jpg" alt="High temperature conditions">
+    <img src="heatwave3.jpg" alt="Heatwave monitoring">
+    <img src="heatwave4.jpg" alt="Heatwave alert">
+
+</div>
+    <header style="background-color:#8B0000; color:white; padding:20px;">
+        <h1>Media & Heatwave Awareness</h1>
+    </header>
+
+    <nav style="padding:15px; background-color:#333;">
+        <a href="index.html" style="color:white;">Home</a> |
+        <a href="alert-details.html" style="color:white;">Alerts</a> |
+        <a href="forecast.html" style="color:white;">Forecast</a> |
+        <a href="subscribe.html" style="color:white;">Subscribe</a>
+    </nav>
+
+    <main style="padding:30px;">
+
+        <h2>Heatwave Awareness Video</h2>
+
+        <video width="700"
+               controls
+               poster="heatwave-poster.jpg">
+
+            <source src="media/heatwave-awareness.mp4"
+                    type="video/mp4">
+
+            Your browser does not support HTML5 video.
+        </video>
+
+        <h2>Audio Advisory</h2>
+
+        <audio controls>
+
+            <source src="media/advisory.mp3"
+                    type="audio/mpeg">
+
+            Your browser does not support HTML5 audio.
+        </audio>
+
+        <h2>Weather Information Map</h2>
+
+        <iframe
+            src="https://www.google.com/maps?q=India&output=embed"
+            width="800"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            title="Google Map showing India">
+        </iframe>
+
+        <h2>JavaScript Notice</h2>
+
+        <noscript>
+            JavaScript is disabled in your browser. Some interactive
+            features of the Heatwave Intelligence Portal may not work.
+        </noscript>
+
+    </main>
+
+    <footer style="background-color:#222; color:white; padding:15px;">
+        <p>&copy; 2026 Heatwave Intelligence System</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="table.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Forecast Summary</title>
+</head>
+
+<body>
+    <h2>Regional Temperature Monitoring</h2>
+
+<table>
+
+    <tr>
+        <th>Zone</th>
+        <th>Current Temperature</th>
+        <th>Heat Index</th>
+        <th>Alert Level</th>
+    </tr>
+
+    <tr>
+        <td>North Zone</td>
+        <td>47°C</td>
+        <td>49°C</td>
+        <td>Severe</td>
+    </tr>
+
+    <tr>
+        <td>Central Zone</td>
+        <td>45°C</td>
+        <td>47°C</td>
+        <td>High</td>
+    </tr>
+
+    <tr>
+        <td>South Zone</td>
+        <td>40°C</td>
+        <td>42°C</td>
+        <td>Moderate</td>
+    </tr>
+
+</table>
+    <header style="background-color:#8B0000; color:white; padding:20px;">
+        <h1>Region-wise Forecast Summary</h1>
+    </header>
+
+    <nav style="padding:15px; background-color:#333;">
+        <a href="index.html" style="color:white;">Home</a> |
+        <a href="alert-details.html" style="color:white;">Alerts</a> |
+        <a href="hotspot-map.html" style="color:white;">Hotspot Map</a> |
+        <a href="subscribe.html" style="color:white;">Subscribe</a>
+    </nav>
+
+    <main style="padding:30px;">
+
+        <table border="1"
+               cellpadding="10"
+               cellspacing="0"
+               style="border-collapse:collapse; width:100%;">
+
+            <caption>
+                <strong>Heatwave Forecast Summary - 13 August 2026</strong>
+            </caption>
+
+            <thead style="background-color:#8B0000; color:white;">
+
+                <tr>
+                    <th rowspan="2">Region</th>
+                    <th rowspan="2">Station</th>
+
+                    <th colspan="2">Forecast</th>
+
+                    <th rowspan="2">Severity Level</th>
+                </tr>
+
+                <tr>
+                    <th>Max Temperature</th>
+                    <th>Forecast Status</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>North Zone</td>
+                    <td>Station A</td>
+                    <td>47°C</td>
+                    <td>Severe Heatwave</td>
+                    <td style="background-color:#FF4D4D;">Severe</td>
+                </tr>
+
+                <tr>
+                    <td>North Zone</td>
+                    <td>Station B</td>
+                    <td>45°C</td>
+                    <td>Heatwave</td>
+                    <td style="background-color:#FFB347;">High</td>
+                </tr>
+
+                <tr>
+                    <td>Central Zone</td>
+                    <td>Station C</td>
+                    <td>44°C</td>
+                    <td>Heatwave Conditions</td>
+                    <td style="background-color:#FFD966;">Moderate</td>
+                </tr>
+
+                <tr>
+                    <td>Central Zone</td>
+                    <td>Station D</td>
+                    <td>42°C</td>
+                    <td>Normal to Hot</td>
+                    <td style="background-color:#90EE90;">Low</td>
+                </tr>
+
+            </tbody>
+
+            <tfoot style="background-color:#eee;">
+                <tr>
+                    <td colspan="5">
+                        Forecast data is illustrative and subject to revision.
+                    </td>
+                </tr>
+            </tfoot>
+
+        </table>
+
+    </main>
+
+</body>
+</html>

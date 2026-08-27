@@ -1,0 +1,24 @@
+.page-layout {
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: #FFE4B5;
+    padding: 20px;
+}
+
+.content {
+    width: 75%;
+    padding: 20px;
+}
+
+footer {
+    clear: both;
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
